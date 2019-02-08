@@ -13,6 +13,8 @@ Project 1
 
 #Preferred browser is Chrome, but should work on any
 
+#This program sends me an email once a week on Tuesdays at Noon providing me with a link to the weekly deals on the PS store.
+
 #BODY variable prints out the following line of text and the link provided.
 
 $BODY = "Hey Liz! Here are this weeks deals on the PlayStation store! https://store.playstation.com/en-us/grid/STORE-MSF77008-ALLDEALS/1"
