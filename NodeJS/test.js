@@ -1,0 +1,11 @@
+var path = require("path"); 
+var hello ="Hello from Node JS Variable"
+console.log(hello)
+
+console.log (`Printing variable hello: ${hello}`);
+
+console.log("directory name: " + __dirname);
+console.log("directory and file name: " + __filename);
+
+
+
