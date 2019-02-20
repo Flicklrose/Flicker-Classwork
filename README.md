@@ -13,7 +13,7 @@ Project 1
 
 #Preferred browser is Chrome, but should work on any
 
-#This program sends me an email once a week on Tuesdays at Noon providing me with a link to the weekly deals on the PS store.
+#This program sends me an email providing me with a link to the weekly deals on the PS store.
 
 #BODY variable prints out the following line of text and the link provided.
 
@@ -23,4 +23,3 @@ $BODY = "Hey Liz! Here are this weeks deals on the PlayStation store! https://st
 
 Send-MailMessage -To "flicker@mail.uc.edu" -From "flicker@mail.uc.edu" -Subject "Weekly PS Deals" -Body $BODY -SmtpServer smtp.office365.com -PORT 587 -UseSsl -Credential (Get-Credential)
 
-#Final Notes: Task Manager was used to set this program to run once a week on Tuesday's at Noon.
