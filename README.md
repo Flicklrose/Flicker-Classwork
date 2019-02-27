@@ -23,3 +23,7 @@ $BODY = "Hey Liz! Here are this weeks deals on the PlayStation store! https://st
 
 Send-MailMessage -To "flicker@mail.uc.edu" -From "flicker@mail.uc.edu" -Subject "Weekly PS Deals" -Body $BODY -SmtpServer smtp.office365.com -PORT 587 -UseSsl -Credential (Get-Credential)
 
+Lab 7
+=====
+
+
