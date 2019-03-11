@@ -45,6 +45,10 @@ pause
 
 Project 2
 =========
+#Program is written in Powershell
+
+#Preferred browser is Chrome, but should work on any
+
 #This program takes a name and store name, then sends an email with the information provided.
 
 #This line of code takes a name.
@@ -70,7 +74,7 @@ elseif($Store -eq "EShop"){
 }
 
 else{
-    $Store -eq "Please type one of the following: PS Store, XBOX, or EShop."
+    #$Store -eq "Please type one of the following: PS Store, XBOX, or EShop."
 }
 
 #This information is put in the email with all the details needed.
