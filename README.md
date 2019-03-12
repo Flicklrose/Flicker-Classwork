@@ -57,7 +57,7 @@ $Name = Read-Host -Prompt "Enter your name: "
 
 #This line of code takes a store name.
 
-$Store = Read-Host - Prompt "Enter a store name: "
+$Store = Read-Host -Prompt "Enter a store name: "
 
 #Depending on what store name you put in, one of the 3 options is given in the email.
 
