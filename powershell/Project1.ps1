@@ -1,5 +1,5 @@
 ﻿$Name = Read-Host -Prompt "Enter your name: "
-$Store = Read-Host - Prompt "Enter a store name: "
+$Store = Read-Host -Prompt "Enter a store name: "
 if($Store -eq "PS Store"){
     $Store = "the Playstation Store! https://store.playstation.com/en-us/grid/STORE-MSF77008-ALLDEALS/1"
 }
